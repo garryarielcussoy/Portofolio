@@ -1,0 +1,44 @@
+TUGAS PORTOFOLIO E-COMMERCE
+MODEL
+
+1. User
+- User ID
+- Email
+- Username
+- Password
+- Nama Lengkap
+- Foto Profil
+- Alamat
+- Nomor HP
+- Tanggal Bergabung
+- Status (None / Terhapus)
+
+2. Buku
+- ID Buku
+- ID Penjual
+- Judul Buku
+- Pengarang
+- Penerbit
+- Nomor ISBN
+- Deskripsi Buku
+- Kategori (Dropdown)
+- Foto Buku
+- Harga Satuan
+- Stok Tersedia
+- Tanggal Unggah
+- Status (None / Terhapus)
+
+3. Transaksi (Satu transaksi bisa membeli banyak barang asalkan dari penjual yang sama)
+- ID Transaksi
+- ID Pembeli
+- ID Penjual
+- Waktu Pembelian (None / Tanggal beli)
+- Waktu Konfirmasi (None / Tanggal konfirmasi)
+- Status (None / Terima / Tolak)
+
+4. Detail Transaksi
+- Detail ID
+- ID Transaksi
+- ID Buku
+- Jumlah Pembelian
+- Total Harga

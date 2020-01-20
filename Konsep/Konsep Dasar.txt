@@ -1,0 +1,80 @@
+KONSEP DASAR
+
+KONSEP E-COMMERCE
+- User bisa membeli maupun menjual barang
+- Setelah seorang pembeli mengklik 'kirim pesanan', pesanan tersebut akan diteruskan kepada penjual. Akan ada email notifikasi yang masuk ke penjual, dan penjual harus segera mengonfirmasi pesanan tersebut (terima / tolak) via aplikasi
+- Pembayaran dan pengiriman buku antar pembeli dan penjual dilakukan diluar aplikasi. Aplikasi hanya membantu menyediakan wadah komunikasi
+- Ada 3 tipe pengguna website: admin (jwt required, admin required), user [pembeli / penjual](jwt required), public
+- Kategori buku meliputi : umum, sosial, sains dan matematika, teknologi, sastra, sejarah (mengikuti Dewey Decimal Classification dengan perubahan seperlunya)
+
+DAFTAR HALAMAN
+1. Halaman Login
+2. Halaman Register
+3. Home
+4. Halaman Utama (List barang beserta semua fitur-fiturnya)
+- Fitur search by filter (judul buku, nama user penjual, nama penerbit, nama pengarang, ID buku, ISBN)
+- Fitur menampilkan semua buku berdasarkan kategori
+- Fitur menampilkan semua buku yang tersedia diurutkan dari unggahan terbaru
+5. Halaman Detail Barang
+6. Halaman Keranjang
+7. Profil (Berisi biodata [tidak bisa diedit, harus sesuai dari awal], list barang yang dijual oleh user bersangkutan, dan notifikasi pesanan yang masuk)
+8. Halaman Tambah Buku
+9. Halaman About Us
+10. Dashboard Admin
+- Halaman yang menampilkan data semua user
+- Halaman yang menampilkan semua transaksi
+
+RINCIAN HALAMAN
+1. Halaman Detail Barang
+* Bagian Profil Penjual
+- Username
+- Nama Lengkap
+- Nomor HP
+- Alamat Penjual
+* Bagian buku
+- Judul Buku
+- Kategori
+- ID Buku
+- Penerbit
+- Pengarang
+- Nomor ISBN
+- Harga Satuan
+- Stok
+- Deskripsi Buku
+
+2. Keranjang
+- Judul Buku
+- ID Buku
+- Penerbit
+- Pengarang
+- Nomor ISBN
+- Username Penjual
+- Jumlah Beli
+- Harga Satuan
+- Harga Total
+
+3. Notifikasi Pesanan
+- ID Transaksi
+- Waktu Pembelian
+- Jumlah Pembelian
+- Total Harga
+- Username Pembeli
+- Nomor HP Pembeli
+- Alamat Pembeli
+- Detail Transaksi:
+    - ID Buku
+    - Judul Buku
+    - Jumlah Pembelian
+    - Total Harga
+
+4. History Belanja
+- ID Transaksi
+- Waktu Pembelian
+- Jumlah Pembelian
+- Total Harga
+- Username Penjual
+- Detail Transaksi:
+    - ID Buku
+    - Judul Buku
+    - Jumlah Pembelian
+    - Total Harga

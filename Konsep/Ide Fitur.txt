@@ -1,0 +1,3 @@
+IDE FITUR
+(V) 1. History belanja user
+(V) 2. Kirim email setiap kali ada pesanan masuk dan pertama kali register

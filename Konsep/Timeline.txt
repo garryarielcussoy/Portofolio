@@ -1,0 +1,16 @@
+TIMELINE
+
+Senin 30 Desember 2019
+- Wireframe dan daftar semua endpoints yang diperlukan selesai
+
+Rabu 1 Januari 2020
+- Seluruh endpoints selesai
+
+Kamis 2 Januari 2020
+- Seluruh Unit Test selesai
+
+Sabtu 4 Januari 2020
+- Selesai belajar React dari Codecademy dan pengembangan backend portofolio
+
+Minggu 5 Januari 2020
+- Mulai mencicil tampilan menggunakan React
