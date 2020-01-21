@@ -12,3 +12,4 @@ python-dotenv
 pytest-cov
 pillow
 flask_cors
+mailjet_rest
