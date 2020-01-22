@@ -14,7 +14,7 @@ import json
 from flask_jwt_extended import jwt_required, get_jwt_claims
 from blueprints import internal_required
 
-# Creating blueprint
+# Create blueprint
 bp_admin = Blueprint('admin', __name__)
 api = Api(bp_admin)
 
